@@ -1,3 +1,4 @@
+//imports
 import React, { Component } from 'react'
 import { withRouter, Redirect } from 'react-router-dom';
 import './Profile.css'
@@ -46,11 +47,11 @@ class Profile extends Component {
     super(props)
     this.state = {
       profileData: {
-        username: 'itsvipinupgrad',
+        username: 'khushboo',
         postCount: 0, 
         followerCount: 10,
         followingCount: 20,
-        fullName: 'Vipin P K'
+        fullName: 'shikhar'
       },
       postsData: [],
       isEditNameModalOpen: false,
